@@ -15,7 +15,7 @@ API_HASH = "b1e51e7bca277000a00eb038a72d7fb2"
 BOT_TOKEN = "8035520828:AAEg9xj8K0ipBit0pocuhTnL3qrYPv-nriA"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://user:123@cluster0.pndw28u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://zea:123@cluster0.pndw28u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
