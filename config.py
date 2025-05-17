@@ -8,25 +8,25 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID =  26384726
+API_HASH = "b1e51e7bca277000a00eb038a72d7fb2"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = "8035520828:AAEg9xj8K0ipBit0pocuhTnL3qrYPv-nriA"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://user:123@cluster0.pndw28u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOGGER_ID = -1001324302978
+LOG_GROUP_ID = -1001324302978
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = 77001230
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Learningbots79/LB_Music",
+    "https://github.com/idk20256/xx",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/zeatapistore")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zeatapistore")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = "BAAP-GEApuOLmDImIYQwafl81-EZBBTqEJiLWS7lG74yGCx94DRahRKbMhsNZ9crOfuj7VcrXAPAGnRG9RaOSyAcvrSe0kV8Pz7Yi8pCXHkszCKxQldPtjaKIJccgEd0RIIAlNYyX8tK6OfgvPGp-7Ohh6rSh4MI5bVuSYzs2HYHqOPksh7bC1p_WQkE7CQP7Hq3r_a3hA0JuuV3gTBTcOb9i4lRs9fB3CG3H_T1KsmJRqoi9G8ztJ5w1ZenCSa2-fiaB8ss23snqEPlSxl6auERKFeaPMeh2SbqDxNBs-9Xg4PPBz67UtEwNoTpIb0vhM2XIP3ZEXKEuZP6-TYOb9f5K-4hqgAAAAGRNr3uAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
