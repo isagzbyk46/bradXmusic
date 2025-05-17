@@ -24,7 +24,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables]( https://github.com/Learningbots79/LB_Music/master/sample.env)
+- Get your [Necessary Variables]( https://github.com/idk20256/bradXmusic/master/sample.env)
 ---
 
 ### 🔧 Quick Setup
@@ -48,7 +48,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/idk20256/xx && cd xx
+   git clone https://github.com/idk20256/bradXmusic && cd bradXmusic
    ```
 6. **Install Requirements**
    ```bash
